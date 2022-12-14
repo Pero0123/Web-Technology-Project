@@ -1,0 +1,97 @@
+.a{
+    color: aqua;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+    #logo-div{
+        width: 100%;
+        background-color: greenyellow;
+            padding: 2%;
+       min-height: 5px;
+       line-height: 5px;
+       margin-bottom: 10px;
+    }
+    #nav-div{
+        width: 100%;
+        min-height: 30px;
+        background-color: greenyellow;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+#main-content{
+    background-color: grey;
+    width: 70%;
+    margin-left: 10%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(143, 149, 144);
+}
+
+#product-title{
+    width: 100%;
+   min-height: 50px;
+    text-align: left;
+    background-color: darkgrey;
+    margin-bottom: 20px;
+}
+
+#pictures{
+width: 60%;
+background-color: lightgray;
+min-height: 500px;
+float: left;
+margin-left: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+#price{
+    width: 30%;
+    background-color: lightgrey;
+    min-height: 500px;
+    margin-right: 20px;
+    float: right;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#description-title{
+    width: 100%;
+   min-height: 30px;
+    text-align: left;
+    background-color: blue;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#product-description{
+    width: 100%;
+    background-color: grey;
+        padding: 2%;
+   min-height: 500px;
+   margin-bottom: 10px;
+   clear: both;
+   border-radius: 10px;
+}
+
+#copyright{
+    width: 100%;
+    background-color: green;
+        padding: 2%;
+   min-height: 100px;
+   margin-bottom: 10px;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+    
+}
