@@ -19,9 +19,15 @@
     line-height: 30px;
     text-align: center;
 }
-.center{
+.centersv {
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
+    width: 70%;
+}
+.centervp{
+    display: block;
+    margin-left:auto;
+    margin-right: 227px;
+    width: 70%;
 }
