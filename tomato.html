@@ -17,9 +17,12 @@
 
     <div id="main-content">
     <div id="product-title">Cherry Tomatos</div>
-    <button>B</button>
-    <div id="pictures"><img src="tomato images/tomato on vine.jpg" alt="tomato"> 
-        <button>N</button>
+    <div id="pictures">
+
+        <p><span id="product-image"></span></p>
+        
+        <button class="back-button" onclick="prevImage()"><img id="back-image" src="tomato images/arrow button back.jpg" alt=""></button>
+        <button class="next-button" onclick="nextImage()"><img id="next-image" src="tomato images/arrow button.jpg" alt=""></button>
     </div>
     <div id="price">Pricing details</div>
     <div id="description-title">Cherry Tomatos</div>
@@ -28,6 +31,6 @@
 
     </div>
 
-    
+    <script src="tomato.js"></script>
 </body>
 </html>

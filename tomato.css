@@ -10,10 +10,10 @@
     #logo-div{
         width: 100%;
         background-color: greenyellow;
-            padding: 2%;
-       min-height: 5px;
-       line-height: 5px;
-       margin-bottom: 10px;
+        padding: 2%;
+        min-height: 5px;
+        line-height: 5px;
+        margin-bottom: 10px;
     }
     #nav-div{
         width: 100%;
@@ -28,45 +28,71 @@
 #main-content{
     background-color: grey;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 15%;
     border-style: solid;
     border-width: 5px;
     border-color: rgb(143, 149, 144);
 }
 
 #product-title{
-    width: 100%;
    min-height: 50px;
     text-align: left;
     background-color: darkgrey;
+    margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #pictures{
-width: 60%;
+width: 70%;
 background-color: lightgray;
-min-height: 500px;
+min-height: 00px;
 float: left;
 margin-left: 20px;
 border-radius: 10px;
-margin-bottom: 20px;
+margin-bottom: 15px;
 }
 
+.back-button
+{
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
 
+}
 
-img{
-    display: block;
+#product-image{
     min-height: 500px;
     width: 100%;
     border-radius: 10px;
 }
 
+.next-button
+{
+    background-color: rgba(255, 255, 255, 0);
+float: right;
+
+}
+
+#next-image{
+    width: 15px;
+}
+
+#back-image{
+    width: 15px;
+
+}
+
+
+
+
+
 
 
 #price{
-    width: 30%;
+    width: 20%;
     background-color: lightgrey;
-    min-height: 500px;
+    min-height: 600px;
     margin-right: 20px;
     float: right;
     border-radius: 10px;
@@ -74,18 +100,19 @@ img{
 }
 
 #description-title{
-    width: 100%;
    min-height: 30px;
     text-align: left;
     background-color: blue;
-    margin-bottom: 10px;
     clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #product-description{
-    width: 100%;
     background-color: grey;
-        padding: 2%;
+   margin-left: 20px;
    min-height: 500px;
    margin-bottom: 10px;
    clear: both;
