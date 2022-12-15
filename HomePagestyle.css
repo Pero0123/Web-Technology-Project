@@ -6,10 +6,10 @@
 }
 #logo-div{
     width: 96%;
-    background-color: greenyellow;
+    background-color:greenyellow;
         padding: 2%;
-   min-height: 5px;
-   line-height: 5px;
+   min-height: 1px;
+   line-height: 1px;
    margin-bottom: 10px;
 }
 #nav-div{
@@ -18,4 +18,10 @@
     background-color: greenyellow;
     line-height: 30px;
     text-align: center;
+}
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
 }
