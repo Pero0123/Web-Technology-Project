@@ -52,6 +52,17 @@ border-radius: 10px;
 margin-bottom: 20px;
 }
 
+
+
+img{
+    display: block;
+    min-height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
 #price{
     width: 30%;
     background-color: lightgrey;
@@ -88,6 +99,8 @@ margin-bottom: 20px;
    min-height: 100px;
    margin-bottom: 10px;
 }
+
+
 
 .clearfix::after{
     content:"";
