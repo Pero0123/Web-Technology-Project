@@ -1,23 +1,31 @@
-.a{
-    color: aqua;
-}
+
+
 *{
     background-color: green;
 }
 #logo-div{
+    border-radius: 25px;
     width: 96%;
     background-color:greenyellow;
         padding: 2%;
    min-height: 1px;
    line-height: 1px;
-   margin-bottom: 10px;
+   margin-bottom:20px;
 }
-#nav-div{
+a{
+    
+    margin-top: auto;
+    text-decoration: none;
+    border-radius: 7px;
     width: 100%;
-    min-height: 30px;
+    min-height: 10px;
+    margin-right:10px;
     background-color: greenyellow;
-    line-height: 30px;
+    line-height: ;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+    
 }
 .centersv {
     display: block;
@@ -31,3 +39,4 @@
     margin-right: 227px;
     width: 70%;
 }
+
