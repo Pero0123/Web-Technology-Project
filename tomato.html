@@ -9,27 +9,37 @@
     
 </head>
 <body>
-
-    <script src="tomato.js"></script>
     
-    <div id="logo-div">logo</div>
-    <div id="nav-div">Navigation</div>
-
-    <div id="main-content">
-    <div id="product-title">Cherry Tomatos</div>
-    <div id="pictures">
-
-        <p><span id="product-image"></span></p>
-        
-        <button class="back-button" onclick="prevImage()"><img id="back-image" src="tomato images/arrow button back.jpg" alt=""></button>
-        <button class="next-button" onclick="nextImage()"><img id="next-image" src="tomato images/arrow button.jpg" alt=""></button>
+    <div id="logo-div">
+        <img src="Speedyveg logo.png" alt="can not show image"class="centersv" height= 100 width= 100>
+        <img src="Veglogo.png" alt="can not show image" class="centervp" height= 70 width= 100></div>
     </div>
-    <div id="price">Pricing details</div>
-    <div id="description-title">Cherry Tomatos</div>
-    <div id="product-description">Description Goes Here</div>
-    <div id="copyright"><small>copyright Next Day Vegetables 2022</small></div>
+ 
+<!-------------------logo and title stuff above----------------->
+    
+<!--div for all the main content-->
+<div id="main-content">
 
+    <div id="product-title"><h1>Cherry Tomatos</h1></div>
+
+    <div id="image-div">
+        <div id="img-div">
+            <span id="pictures"></span>
+            <div id="back-btn" onclick="nextImage()"><img class="btn" src="tomato images\arrow back.png" alt=""></div>
+            <div id="next-btn" onclick="prevImage()"><img class="btn" src="tomato images\arrow next.png" alt=""></div>
+        </div>
     </div>
+
+    <div id="pricing"> <h1>Cherry Tomatos</h1>  <p>$4.20 per kg</p>
+        <p><img id="cart" src="tomato images\add to cart.png" alt="cart"></p>
+       <p>Free Delivery on all orders over $50!</p>
+    
+    </div>
+    <div id="description"><p>Fresh organic cherry tomatos. Sourced from the finest farms in the country. Here at speedy veg we have a passion for fresh produce so all our vegetables are guaranteed fresh and never Frozen!. We also ensure our produce will not contain any significant quantity of any herbicides or pesticides.</p></div>
+
+
+</div>
+
 
     <script src="tomato.js"></script>
 </body>
