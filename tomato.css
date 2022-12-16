@@ -49,9 +49,8 @@ a{
 
 /* ------logo and title stuff above--------*/
 
-.h1{
+h1{
     background-color: grey;
-    color: grey;
 }
 
 #main-content{
