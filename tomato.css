@@ -27,7 +27,6 @@ a{
     margin-right:10px;
     
     background-color: greenyellow;
-    line-height: ;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3.2%;
@@ -48,108 +47,102 @@ a{
     width: 70%;
 }
 
-    #nav-div{
-        width: 100%;
-        min-height: 30px;
-        background-color: greenyellow;
-        line-height: 30px;
-        text-align: center;
-        margin-bottom: 10px;
-    }
+/* ------logo and title stuff above--------*/
 
+.h1{
+    background-color: grey;
+    color: grey;
+}
 
 #main-content{
-    background-color: grey;
-    width: 70%;
-    margin-left: 15%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(143, 149, 144);
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+    background-color:green;
 }
 
 #product-title{
-   min-height: 50px;
-    text-align: left;
-    background-color: darkgrey;
-    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    background-color: grey;
+
 }
 
-#pictures{
-width: 60%;
-background-color: lightgray;
-float: left;
-margin-left: 20px;
-border-radius: 10px;
-margin-bottom: 15px;
+#cart{
+    height: 40px;
+    width: 200px;
+    margin-top: 100px;
+
 }
 
-.back-button
-{
+#image-div{
+    position: relative;
+
+}
+
+#next-btn{
+    position: absolute;top: 300px; left: 770px;
     background-color: rgba(255, 255, 255, 0);
-    float: left;
+}
 
+#back-btn{
+    position: absolute;top: 300px;;
+}
+
+#img-div{
+    height: 600px;
+    width: 800px;
+    background-color: transparent;
+    margin-bottom: 820px;
+    float: left;
 }
 
 #product-image{
-    width: 100%;
+    height: 600px;
+    width: 800px;
+    border-radius: 20px;
 }
 
-.next-button
-{
-    background-color: rgba(255, 255, 255, 0);
-float: right;
-
+#pictures{
+    float: left;
 }
 
-#next-image{
-    width: 15px;
-}
-
-#back-image{
-    width: 15px;
-
-}
-
-
-#price{
-    width: 25%;
-    background-color: lightgrey;
-    height: 450px;
-    margin-right: 20px;
+#pricing{
+    width: 300px;
+    height: 600px;
+    background-color: grey;
     float: right;
-    border-radius: 10px;
+    margin-left: 50px;
+    border-radius: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #description-title{
-   min-height: 30px;
-    text-align: left;
-    background-color: blue;
-    clear: both;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-#product-description{
     background-color: grey;
-   margin-left: 20px;
-   min-height: 500px;
-   margin-bottom: 10px;
-   clear: both;
-   border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    float: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 640px;
 }
 
-#copyright{
+#description{
+    background-color: grey;
     width: 100%;
-    background-color: green;
-        padding: 2%;
-   min-height: 50px;
+    height: 800px;
+    float: none;
+    border-radius: 20px;
 }
+
+.btn{
+    width: 30px;
+}
+
+
 
 
 
