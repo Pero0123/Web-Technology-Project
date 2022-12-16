@@ -78,9 +78,8 @@ a{
 }
 
 #pictures{
-width: 70%;
+width: 60%;
 background-color: lightgray;
-min-height: 00px;
 float: left;
 margin-left: 20px;
 border-radius: 10px;
@@ -95,9 +94,7 @@ margin-bottom: 15px;
 }
 
 #product-image{
-    min-height: 500px;
     width: 100%;
-    border-radius: 10px;
 }
 
 .next-button
@@ -118,9 +115,9 @@ float: right;
 
 
 #price{
-    width: 20%;
+    width: 25%;
     background-color: lightgrey;
-    min-height: 600px;
+    height: 450px;
     margin-right: 20px;
     float: right;
     border-radius: 10px;
