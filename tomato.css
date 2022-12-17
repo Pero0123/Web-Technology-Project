@@ -112,6 +112,9 @@ p{
     height: 600px;
     width: 800px;
     border-radius: 20px;
+    border-color: greenyellow;
+    border-style: groove;
+    border-width: 6px;
 }
 
 #pictures{
