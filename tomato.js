@@ -6,6 +6,7 @@ var imagestr = [
 
 var counter = 0;
 document.getElementById("tomato").innerHTML=imagestr[counter];
+document.getElementById("img1").style.borderWidth="5px";
 
 function nextImage()
 {
@@ -45,31 +46,32 @@ function prevImage()
     document.getElementById("img"+(counter+1)).style.borderWidth="5px";
 }
 
-function selectImg1()
+function updateImage()
 {
     document.getElementById("img1").style.borderWidth="0px";
     document.getElementById("img2").style.borderWidth="0px";
     document.getElementById("img3").style.borderWidth="0px";
 
-    document.getElementById("tomato").innerHTML=imagestr[0];
-    document.getElementById("img1").style.borderWidth="5px";}
+    document.getElementById("tomato").innerHTML=imagestr[counter];
+    document.getElementById("img"+(counter+1)).style.borderWidth="5px";
+}
+
+function selectImg1()
+{
+    counter = 0;
+    updateImage();
+}
 
 function selectImg2()
 {
-    document.getElementById("img1").style.borderWidth="0px";
-    document.getElementById("img2").style.borderWidth="0px";
-    document.getElementById("img3").style.borderWidth="0px";
-
-    document.getElementById("tomato").innerHTML=imagestr[1];
-    document.getElementById("img2").style.borderWidth="5px";}
-
+    counter = 1;
+    updateImage();
+}
 
 function selectImg3()
 {
-    document.getElementById("img1").style.borderWidth="0px";
-    document.getElementById("img2").style.borderWidth="0px";
-    document.getElementById("img3").style.borderWidth="0px";
+    counter = 2;
+    updateImage();
+}
 
-    document.getElementById("tomato").innerHTML=imagestr[2];
-    document.getElementById("img3").style.borderWidth="5px";}
 
