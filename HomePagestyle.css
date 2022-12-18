@@ -11,6 +11,7 @@
    min-height: 1px;
    line-height: 1px;
    margin-bottom:60px;
+   min-width: 1300px;
 }
 
 
@@ -45,7 +46,7 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 padding:1.5%;
 }
-a:hover{
+a1:hover{
     font-size: larger;
  
 }
@@ -67,6 +68,8 @@ a:hover{
     width: 70%;
     height: 150px;
 }
+
+
 
 #Fastlist-div{
     background:url;
