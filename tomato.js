@@ -10,9 +10,7 @@ document.getElementById("img1").style.borderWidth="5px";
 
 function nextImage()
 {
-    document.getElementById("img1").style.borderWidth="0px";
-    document.getElementById("img2").style.borderWidth="0px";
-    document.getElementById("img3").style.borderWidth="0px";
+    clearBorder();
 
     if (counter<2)
     {
@@ -29,9 +27,7 @@ function nextImage()
 
 function prevImage()
 {
-    document.getElementById("img1").style.borderWidth="0px";
-    document.getElementById("img2").style.borderWidth="0px";
-    document.getElementById("img3").style.borderWidth="0px";
+    clearBorder();
 
     if (counter>0)
     {
@@ -48,10 +44,7 @@ function prevImage()
 
 function updateImage()
 {
-    document.getElementById("img1").style.borderWidth="0px";
-    document.getElementById("img2").style.borderWidth="0px";
-    document.getElementById("img3").style.borderWidth="0px";
-
+    clearBorder();
     document.getElementById("tomato").innerHTML=imagestr[counter];
     document.getElementById("img"+(counter+1)).style.borderWidth="5px";
 }
@@ -72,6 +65,13 @@ function selectImg3()
 {
     counter = 2;
     updateImage();
+}
+
+function clearBorder()
+{
+    document.getElementById("img1").style.borderWidth="0px";
+    document.getElementById("img2").style.borderWidth="0px";
+    document.getElementById("img3").style.borderWidth="0px";
 }
 
 
