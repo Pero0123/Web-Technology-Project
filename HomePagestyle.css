@@ -16,9 +16,12 @@ a{
     text-decoration: none;
     border-radius:20px;
     width: 100%;
-     min-height: 100px;
-    margin-left: 165px;
-    background-color: sandybrown;
+        min-height: 100px;
+    
+    margin-left: 140px;
+    
+    background-color: greenyellow;
+
    text-align: center;
     
     font-family: Arial, Helvetica, sans-serif;
@@ -136,6 +139,7 @@ h3{
     margin-top: 5%;
     
     border: 25px solid brown;
+    margin-left: %;
     margin-left: %;
 
 }th,td{
