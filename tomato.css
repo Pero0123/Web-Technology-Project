@@ -66,6 +66,7 @@ p{
     margin-top: 20px;
     width: 80%;
     background-color:green;
+    min-width: 1300px;
 }
 
 #product-title{
