@@ -12,6 +12,8 @@
    line-height: 1px;
    margin-bottom:60px;
 }
+
+
 a{    
     text-decoration: none;
     border-radius:20px;
@@ -139,7 +141,8 @@ h3{
     margin-top: 5%;
     
     border: 25px solid brown;
-    margin-left: %;
+    margin-left: 3%;
+    width: 94%;
 
 }th,td{
     
@@ -153,10 +156,11 @@ h3{
     background-color: sandybrown;
 }
 .broc{ 
+    height: 40%;
+    width: 40%;
     display: block;
     background-color: sandybrown;
-margin-right:100px ;
-margin-left: 140px;
+margin-left: 30%;
 margin-bottom: 50px;
 border-radius: 50%;
 
@@ -168,7 +172,9 @@ border-radius: 50%;
 .outofstck{
     display: block;
     margin-right:100px ;
-margin-left: 140px;
+    margin-left: 30%;
+    width: 40%;
+    height: 20%;
 }
 
 d{
