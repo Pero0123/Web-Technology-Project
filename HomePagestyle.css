@@ -16,12 +16,9 @@ a{
     text-decoration: none;
     border-radius:20px;
     width: 100%;
-        min-height: 100px;
-    
-    margin-left: 140px;
-    
-    background-color: greenyellow;
-
+     min-height: 100px;
+    margin-left: 165px;
+    background-color: sandybrown;
    text-align: center;
     
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +27,7 @@ a{
 }
 a:hover{
     font-size: larger;
-    text-decoration:underline;
+ 
 }
 
 
@@ -40,6 +37,7 @@ a:hover{
     margin-left:auto;
     margin-right: auto;
     width: 70%;
+    height: 150px;
 }
 .centervp{
     border-radius: 25px;
@@ -47,6 +45,7 @@ a:hover{
     margin-left:auto;
     margin-right: 227px;
     width: 70%;
+    height: 150px;
 }
 
 #Fastlist-div{
@@ -137,23 +136,24 @@ h3{
     margin-top: 5%;
     
     border: 25px solid brown;
-    margin-left: 7%;
+    margin-left: %;
 
 }th,td{
     
     border-radius: 40%;
     line-height:50%;
+    margin-right: ;
     margin-top: 5%;
     text-align: center;
     height: 500px;
-    
+    width: 20%;
     background-color: sandybrown;
 }
 .broc{ 
     display: block;
     background-color: sandybrown;
 margin-right:100px ;
-margin-left: 100px;
+margin-left: 140px;
 margin-bottom: 50px;
 border-radius: 50%;
 
@@ -165,7 +165,7 @@ border-radius: 50%;
 .outofstck{
     display: block;
     margin-right:100px ;
-margin-left: 100px;
+margin-left: 140px;
 }
 
 d{
