@@ -17,6 +17,7 @@
     min-height: 1px;
     line-height: 1px;
     margin-bottom:20px;
+    min-width: 1300px;
 }
 
 a{
@@ -111,11 +112,7 @@ p{
     border-style: groove;
 }
 
-#cart{
-    width: 200px;
-    height: 50px;
-    border-radius: 20px;
-}
+
 
 
 #wrapper{
@@ -195,6 +192,18 @@ p{
     border-radius: 20px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+#cart{
+    width: 200px;
+    margin-bottom: 1px;
+    background-color: transparent;
+}
+
+#cart:hover{
+    width: 202px;
+    background-color: transparent;
+    margin-bottom: 0px;
 }
 
 

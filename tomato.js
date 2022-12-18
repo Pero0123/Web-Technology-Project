@@ -1,7 +1,7 @@
 var imagestr = [
-    "<img id=\"tomato\" src=\"tomato images/tomato on vine.jpg\" alt=\"000000\">",
-    "<img id=\"tomato\" src=\"tomato images/tomato on vine 2.jpg\" alt=\"1111111\">",
-    "<img id=\"tomato\" src=\"tomato images/Cherry Tomatoes.jpg\" alt=\"222222\">"
+    "<img id=\"tomato\" src=\"tomato images/tomato on vine.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/tomato on vine 2.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/Cherry Tomatoes.jpg\" alt=\"can't load image\">"
 ];
 
 var counter = 0;
