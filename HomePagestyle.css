@@ -187,10 +187,17 @@ font-size: 40px;
 
 }
 .awards{
-    float: right;
+    float: left;
     border-radius:20%;
-    margin-right: 12.5%;
     margin-top: 10%;
+    margin-left: 13.75%;
+    width: 15%;
+    height: 15%;
+}
+
+#awards-img{
+    width: 94%;
+    margin-left: 3%;
 }
 
 #footer-div{
