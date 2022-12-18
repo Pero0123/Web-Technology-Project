@@ -1,3 +1,5 @@
+//add images here 
+
 var imagestr = [
     "<img id=\"tomato\" src=\"tomato images/tomato on vine.jpg\" alt=\"can't load image\">",
     "<img id=\"tomato\" src=\"tomato images/tomato on vine 2.jpg\" alt=\"can't load image\">",
@@ -5,6 +7,10 @@ var imagestr = [
 ];
 
 var counter = 0;
+
+//set number of images here
+const imagenumber = 3;
+
 document.getElementById("tomato").innerHTML=imagestr[counter];
 document.getElementById("img1").style.borderWidth="5px";
 
@@ -12,7 +18,7 @@ function nextImage()
 {
     clearBorder();
 
-    if (counter<2)
+    if (counter<(imagenumber-1))
     {
         counter++;
     }
@@ -35,7 +41,7 @@ function prevImage()
     }
     else
     {
-        counter=2;
+        counter=(imagenumber-1);
     }
     document.getElementById("tomato").innerHTML=imagestr[counter];
 
