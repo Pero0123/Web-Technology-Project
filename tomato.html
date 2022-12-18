@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Site</title>
+    <title>Cherry Tomatos</title>
     <link rel="stylesheet" href="tomato.css">
-    
+    <link rel="icon" href="tomato images/icon.png">
 </head>
 <body>
     
     <div id="logo-div">
-        <img src="Speedyveg logo.png" alt="can not show image"class="centersv" height= 100 width= 100>
+        <a style="background-color: transparent;" href="HomePage.html"><img src="Speedyveg logo.png" alt="can not show image" class="centersv" height= 100 width= 100></a>
         <img src="Veglogo.png" alt="can not show image" class="centervp" height= 70 width= 100></div>
     </div>
  
@@ -22,13 +22,18 @@
 
     <div id="product-title"><h1>Cherry Tomatos</h1></div>
 
-    <div id="image-div">
-        <div id="img-div">
-            <span id="pictures"></span>
-            <div id="back-btn" onclick="nextImage()"><img class="btn" src="tomato images\arrow back.png" alt=""></div>
-            <div id="next-btn" onclick="prevImage()"><img class="btn" src="tomato images\arrow next.png" alt=""></div>
-        </div>
+    <div id="image-preview">
+        <img id="img1" onclick="selectImg1()" class="preview-image" src="tomato images/tomato on vine.jpg" alt="">
+        <img id="img2" onclick="selectImg2()" class="preview-image" src="tomato images/tomato on vine 2.jpg" alt="">
+        <img id="img3" onclick="selectImg3()" class="preview-image" src="tomato images/Cherry Tomatoes.jpg" alt="">
+
     </div>
+
+    <div id="wrapper">
+        <span id="tomato" style="border-color: transparent;"></span>
+        <img id="arrow-next" onclick="nextImage()" src="tomato images\arrow next.png" alt="">
+        <img id="arrow-back" onclick="prevImage()" src="tomato images\arrow back.png" alt="">
+        </div>
 
     <div id="pricing"> <h1>Cherry Tomatos</h1>  <p>$4.20 per kg</p>
         <p><img id="cart" src="tomato images\add to cart.png" alt="cart"></p>
