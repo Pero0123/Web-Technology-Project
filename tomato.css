@@ -76,49 +76,81 @@ p{
     background-color:greenyellow;
     line-height: 100px;
     text-align: center;
-
 }
 
 #cart{
     width: 200px;
     height: 50px;
     border-radius: 20px;
-
 }
 
-#image-div{
+
+#wrapper{
+    float: left;
     position: relative;
-
-}
-
-#next-btn{
-    position: absolute;top: 300px; left: 770px;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-#back-btn{
-    position: absolute;top: 300px;;
-}
-
-#img-div{
     height: 600px;
     width: 800px;
+
+}
+
+.span{
+    border-radius: 0px;
+    background-color: greenyellow;
+}
+
+#tomato{
+ height: 600px;
+ width: 800px;
+ border-radius: 20px;
+ border-color: greenyellow;
+ border-style: groove;
+ border-width: 6px;
+}
+
+#arrow-next{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    margin-left: 12%;
     background-color: transparent;
-    margin-bottom: 20px;
-    float: left;
 }
 
-#product-image{
-    height: 600px;
-    width: 800px;
-    border-radius: 20px;
+#arrow-next:hover
+{
+    height: 63px;
+    width: 63px;
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    border-style: solid;
+    border-width: 1px;
     border-color: greenyellow;
-    border-style: groove;
-    border-width: 6px;
+    background-color: transparent;
+
 }
 
-#pictures{
-    float: left;
+#arrow-back{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 47%;
+    left: 2%;
+    background-color: transparent;
+}
+
+#arrow-back:hover
+{
+    height: 63px;
+    width: 63px;
+    position: absolute;
+    top: 47%;
+    left: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+    background-color: transparent;
 }
 
 #pricing{
