@@ -22,17 +22,16 @@
 
 a{
     
-    margin-top: auto;
+ 
     text-decoration: none;
     border-radius: 20px;
     width: 100%;
-    min-height: 10px;
-    margin-right:10px;
+   background-color: transparent;
     
-    background-color:sandybrown;
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 3.2%;
+
 }
 
 .centersv {
