@@ -1,10 +1,10 @@
 //add images here 
 
 var imagestr = [
-    "<img id=\"tomato\" src=\"tomato images/carrots1.jpg\" alt=\"can't load image\">",
-    "<img id=\"tomato\" src=\"tomato images/carrots2.jpg\" alt=\"can't load image\">",
-    "<img id=\"tomato\" src=\"tomato images/carrots3.jpg\" alt=\"can't load image\">",
-    "<img id=\"tomato\" src=\"tomato images/carrots4.jpg\" alt=\"can't load image\">"
+    "<img id=\"tomato\" src=\"tomato images/QualityBio600.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/tomato on vine 2.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/Cherry Tomatoes.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/tomato on vine.jpg\" alt=\"can't load image\">"
     
 
 ];
