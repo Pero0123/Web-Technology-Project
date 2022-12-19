@@ -11,7 +11,9 @@
    min-height: 1px;
    line-height: 1px;
    margin-bottom:60px;
+   min-width: 1300px;
 }
+
 h1{
     background-color: sandybrown;
 }
@@ -46,7 +48,7 @@ text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 padding:1.5%;
 }
-a:hover{
+a1:hover{
     font-size: larger;
  
 }
@@ -64,10 +66,12 @@ a:hover{
     border-radius: 25px;
     display: block;
     margin-left:auto;
-    margin-right: 227px;
+    margin-left: 15%;
     width: 70%;
     height: 150px;
 }
+
+
 
 #Fastlist-div{
     background:url;
@@ -111,7 +115,7 @@ li{
     width: 94%;
     background-color:greenyellow;
         padding: 3%;
-   min-height: 10px;
+   min-height: 700px;
    line-height: 50px;
    margin-top:80px;
    padding-bottom: 2%;
@@ -157,8 +161,9 @@ h3{
     margin-top: 5%;
     
     border: 25px solid brown;
-    margin-left: %;
-    margin-left: %;
+
+    margin-left: 3%;
+    width: 94%;
 
 }
 
@@ -174,12 +179,13 @@ th,td{
     background-color: sandybrown;
 }
 .broc{ 
+    height: 40%;
+    width: 40%;
     display: block;
     background-color: sandybrown;
 margin-right:auto ;
 margin-left: auto;
-margin-bottom: 50px;
-border-radius: 50%;
+margin-left: 30%;
 
 
 }
@@ -191,7 +197,9 @@ border-radius: 50%;
 .outofstck{
     display: block;
     margin-right:100px ;
-margin-left: 140px;
+    margin-left: 30%;
+    width: 40%;
+    height: 20%;
 }
 
 d{
@@ -204,10 +212,17 @@ font-size: 40px;
 
 }
 .awards{
-    float: right;
+    float: left;
     border-radius:20%;
-    margin-right: 12.5%;
     margin-top: 10%;
+    margin-left: 13.75%;
+    width: 15%;
+    height: 15%;
+}
+
+#awards-img{
+    width: 94%;
+    margin-left: 3%;
 }
 
 #footer-div{
@@ -217,7 +232,7 @@ font-size: 40px;
         padding: 5%;
  
 line-height: 100%;
-   margin-top: 40%;
+   margin-top: 30%;
 
 }
 h4{text-align: left;
