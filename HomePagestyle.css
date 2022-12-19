@@ -14,16 +14,18 @@
    min-width: 1300px;
 }
 
-
+h1{
+    background-color: sandybrown;
+}
 a{    
     text-decoration: none;
     border-radius:20px;
     width: 100%;
         min-height: 100px;
     
-    margin-left: 140px;
+    margin-left: 165px;
     
-    background-color: sandybrown;
+    background-color:sandybrown;
 
    text-align: center;
     
@@ -163,7 +165,9 @@ h3{
     margin-left: 3%;
     width: 94%;
 
-}th,td{
+}
+
+th,td{
     
     border-radius: 40%;
     line-height:50%;
@@ -179,11 +183,13 @@ h3{
     width: 40%;
     display: block;
     background-color: sandybrown;
+margin-right:auto ;
+margin-left: auto;
 margin-left: 30%;
-margin-bottom: 50px;
-border-radius: 50%;
+
 
 }
+
 .broc:hover{
     transform: scale(1.3);
 }
