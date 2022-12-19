@@ -1,9 +1,9 @@
-/add images here 
+//add images here 
 
 var imagestr = [
-    "<img id=\"tomato\" src=\"tomato images/tomato on vine.jpg\" alt=\"can't load image\">",
-    "<img id=\"tomato\" src=\"tomato images/tomato on vine 2.jpg\" alt=\"can't load image\">",
-    "<img id=\"tomato\" src=\"tomato images/Cherry Tomatoes.jpg\" alt=\"can't load image\">"
+    "<img id=\"tomato\" src=\"tomato images/b1.jpg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/b2.jpeg\" alt=\"can't load image\">",
+    "<img id=\"tomato\" src=\"tomato images/b3.jpg\" alt=\"can't load image\">"
 ];
 
 var counter = 0;
